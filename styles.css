@@ -1,0 +1,136 @@
+/* hero background image */
+.bgimage {
+  height:100vh;
+  background: url('https://images.pexels.com/photos/1961772/pexels-photo-1961772.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-size:cover;
+  position:relative;
+}
+
+.nav-item a:hover{
+  color: burlywood;
+}
+
+.nav-btn{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: grey;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+.nav-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.nav-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+.nav-btn:hover span {
+  padding-right: 25px;
+}
+
+.nav-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* text css above hero image*/
+.hero_title {
+  font-size: 4.5rem;
+}
+.hero_desc {
+  font-size: 2rem;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+  background-color: black;
+}
+
+
+ /* about section image css */
+
+/* end of about section image css */
+
+/* services section css */
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card-title:hover .servicesIcon {
+  color: #f3f7f8;
+}
+.servicesText:hover {
+  border: 1px solid #008000;
+}
+/* end of services section css */
+card-title mt-3:hover{
+  color: #8dee33;
+}
+
+/* social media icons styling */
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+  color: #008000;
+}
+.fab {
+  color: #000000;
+}
+/* footer styling */
+
+
+#footer {
+  background-color: hwb(189 33% 9% / 0.952);
+  text-align: center;
+}
+
+
+
+/* end of social media icons styling */
+
+/* spacing on all sections */
+about.html, services.html, portfolio.html, contact.html {
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+#contact.html {
+  padding-bottom: 4rem;
+}
+/*end of spacing on all sections */
