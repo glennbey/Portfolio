@@ -7,13 +7,13 @@
 }
 
 .nav-item a:hover{
-  color: burlywood;
+  color: rgb(110, 73, 25);
 }
 
 .nav-btn{
   display: inline-block;
   border-radius: 4px;
-  background-color: grey;
+  background-color: rgb(238, 171, 46);
   border: none;
   color: #FFFFFF;
   text-align: center;
