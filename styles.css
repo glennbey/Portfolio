@@ -134,3 +134,7 @@ about.html, services.html, portfolio.html, contact.html {
   padding-bottom: 4rem;
 }
 /*end of spacing on all sections */
+
+.col-md-6{
+  text-decoration: none;
+}
